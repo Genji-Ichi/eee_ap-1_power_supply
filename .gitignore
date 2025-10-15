@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # Tex formatted logs
-*-indent.log
+*.log
