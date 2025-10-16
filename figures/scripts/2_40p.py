@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -16,7 +18,7 @@ fig = plt.figure()
 ax = fig.add_subplot(111)
 
 # csv ファイルの読み込み
-file_path = "data/2_80p.csv"
+file_path = "figures/data/2_40p.csv"
 dataset = pd.read_csv(file_path, comment="#")
 
 x = np.array(dataset["P_i"])
@@ -34,5 +36,7 @@ ax.ticklabel_format(style="sci", axis="y", scilimits=(0, 0))
 ax.plot(x, y, linestyle="none", marker="o", label="実験結果")
 ax.grid()
 
+file_name = os.path.splitext(os.path.basename(__file__))[0]
+plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
 
 plt.show()

@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -20,17 +22,17 @@ ax.set_xlabel(text_V)
 ax.set_ylabel(text_I)
 
 
-file_path_60 = "data/1_2.csv"
+file_path_60 = "figures/data/1_2.csv"
 dataset_60 = pd.read_csv(file_path_60, comment="#")
 V_60 = np.array(dataset_60["V"])
 I_60 = np.array(dataset_60["I"])
 
-file_path_120 = "data/1_3.csv"
+file_path_120 = "figures/data/1_3.csv"
 dataset_120 = pd.read_csv(file_path_120, comment="#")
 V_120 = np.array(dataset_120["V"])
 I_120 = np.array(dataset_120["I"])
 
-file_path_105 = "data/1_4.csv"
+file_path_105 = "figures/data/1_4.csv"
 dataset_105 = pd.read_csv(file_path_105, comment="#")
 V_105 = np.array(dataset_105["V"])
 I_105 = np.array(dataset_105["I"])
@@ -41,25 +43,27 @@ ax.plot(
     I_60,
     linestyle="none",
     marker="o",
-    label=r"$x=60\,\mathrm{cm}$",
+    label=r"$\mathrm{OB}=60\,\mathrm{cm}$",
 )
 ax.plot(
     V_105,
     I_105,
     linestyle="none",
     marker="o",
-    label=r"$x=105\,\mathrm{cm}$",
+    label=r"$\mathrm{OB}=105\,\mathrm{cm}$",
 )
 ax.plot(
     V_120,
     I_120,
     linestyle="none",
     marker="o",
-    label=r"$x=120\,\mathrm{cm}$",
+    label=r"$\mathrm{OB}=120\,\mathrm{cm}$",
 )
 
 ax.grid()
 ax.legend()
 
+file_name = os.path.splitext(os.path.basename(__file__))[0]
+plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
 
-plt.show()
+# plt.show()

@@ -1,6 +1,20 @@
-\documentclass[a4paper,10pt,fleqn,uplatex]{jsarticle} % fleqn:数式を左揃えにする
+\documentclass[a4paper,10pt,fleqn]{ltjsarticle} % fleqn:数式を左揃えにする
 
 \input{/home/yorit/study/.util/latex_preamble/Preamble}
+
+\usepackage{subfiles}
+
+\newcommand{\ii}{\mathrm{i}}
+\newcommand{\jj}{\mathrm{j}}
+\newcommand{\ee}{\mathrm{e}}
+\renewcommand{\abs}[1]{\lvert #1 \rvert}
+
+% siunitx で数式を扱う
+\newcommand{\SIeq}[2]{\SI[parse-numbers=false, per-mode=symbol]{#1}{#2}}
+\newcommand{\sis}[1]{\si[per-mode=symbol]{#1}}
+\newcommand{\SIs}[2]{\SI[per-mode=symbol]{#1}{#2}}
+
+\graphicspath{{../figures/}}
 
 \coursetitle{電気電子工学実習}
 \title{電気電子工学実習報告書}
@@ -18,9 +32,21 @@
 \newpage
 \setcounter{page}{1}
 
-\input{1_power_supply_1}
-\input{1_power_supply_2}
-\input{1_power_supply_3}
-\input{1_power_supply_4}
+\section{概要}
+
+本実習では、環境によって出力の異なる太陽光電池を用いて安定した電源供給システムを構築し、またそのシステムを評価する。
+
+% \input{1_power_supply_1}
+% \input{1_power_supply_2}
+% \input{1_power_supply_3}
+% \input{1_power_supply_4}
+
+\subfile{1_power_supply_1.tex}
+\clearpage
+\subfile{1_power_supply_2.tex}
+% \clearpage
+% \subfile{1_power_supply_3.tex}
+% \clearpage
+% \subfile{1_power_supply_4.tex}
 
 \end{document}
