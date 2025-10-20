@@ -34,12 +34,14 @@ ax.plot(distance, illuminance, linestyle="none", marker="o", label="実験結果
 
 # --- フィッティング処理の修正 ---
 
+
 # 1. フィッティング関数の定義の修正
 # E = A / (a*x**2 + b*x + c)。分子Aは定数パラメータ。
-def fit_func(x, A, a, b, c): # パラメータAを新たに追加
+def fit_func(x, A, a, b, c):  # パラメータAを新たに追加
     """フィッティング関数 $E = A / (ax^2 + bx + c)$"""
     denominator = a * x**2 + b * x + c
     return A / denominator
+
 
 # 2. curve_fitの実行
 # パラメータは(A, a, b, c)の4つ。初期値も4つ設定する。
@@ -49,7 +51,7 @@ try:
     p0_initial = [1e7, 1e-6, 1e-4, 1e-2]
 
     popt, pcov = curve_fit(fit_func, distance, illuminance, p0=p0_initial)
-    A_opt, a_opt, b_opt, c_opt = popt # パラメータのアンパック順序を変更
+    A_opt, a_opt, b_opt, c_opt = popt  # パラメータのアンパック順序を変更
 
     # 3. フィッティング結果のプロット
     x_fit = np.linspace(distance.min(), distance.max(), 100)
@@ -57,10 +59,15 @@ try:
 
     # ★ 凡例のラベルを修正し、分子を定数Aとして表示 ★
     label_fit = (
-        r"フィッティング:" + "\n" +
-        r"$E = \frac{A}{" +
-        f"{a_opt:.2e}x^2 + {b_opt:.2e}x + {c_opt:.2e}" + r"}$" + "\n" +
-        r"($A \approx " + f"{A_opt:.2e}" + "$)" # Aの値を表示
+        r"フィッティング:"
+        + "\n"
+        + r"$E = \frac{A}{"
+        + f"{a_opt:.2e}x^2 + {b_opt:.2e}x + {c_opt:.2e}"
+        + r"}$"
+        + "\n"
+        + r"($A \approx "
+        + f"{A_opt:.2e}"
+        + "$)"  # Aの値を表示
     )
 
     ax.plot(x_fit, y_fit, color="red", linestyle="-", label=label_fit)
@@ -79,4 +86,4 @@ ax.ticklabel_format(style="sci", axis="y", scilimits=(0, 0))
 file_name = os.path.splitext(os.path.basename(__file__))[0]
 plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
 
-plt.show()
+# plt.show()

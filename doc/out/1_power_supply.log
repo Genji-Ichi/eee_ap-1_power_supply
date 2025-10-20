@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.6.15)  17 OCT 2025 02:24
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2024.6.15)  17 OCT 2025 04:10
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/yorit/study/325_eee_ap/1_power_supply/doc/1_power_supply.tex
@@ -834,42 +834,42 @@ Package: import 2020/04/01  v 6.2
 )) (/usr/share/texlive/texmf-dist/tex/luatex/luatexja/patches/lltjp-array.sty
 Package: lltjp-array 2019-07-18 Patch to array for LuaTeX-ja
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 28.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 29.
  (./out/1_power_supply.aux)
 \openout1 = 1_power_supply.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 28.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 29.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
@@ -889,7 +889,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -899,21 +899,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
  (./out/1_power_supply.out) (./out/1_power_supply.out)
 \@outlinefile=\write5
 
 \openout5 = 1_power_supply.out
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 19.17854pt on input line 30.
+(Font)              scaled to size 19.17854pt on input line 31.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 19.17854pt on input line 30.
+(Font)              scaled to size 19.17854pt on input line 31.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 23.00687pt on input line 30.
+(Font)              scaled to size 23.00687pt on input line 31.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 23.00687pt on input line 30.
+(Font)              scaled to size 23.00687pt on input line 31.
 
 
 Class ltjsarticle Warning: deprecated old font command `\bf' used.
@@ -921,35 +921,35 @@ Class ltjsarticle Warning: deprecated old font command `\bf' used.
 (ltjsarticle)              new font selection scheme called NFSS2 with several
 (ltjsarticle)              new, combinable font commands. This ltjsarticle
 (ltjsarticle)              class has defined the old font commands like
-(ltjsarticle)              `\bf' only for compatibility on input line 30.
+(ltjsarticle)              `\bf' only for compatibility on input line 31.
 
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <24.88> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 23.00687pt on input line 30.
+(Font)              scaled to size 23.00687pt on input line 31.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <24.88> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 23.00687pt on input line 30.
+(Font)              scaled to size 23.00687pt on input line 31.
 (load cache: extra_haranoajigothic-medium.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
+(Font)              scaled to size 13.31586pt on input line 31.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
+(Font)              scaled to size 13.31586pt on input line 31.
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
+(Font)              scaled to size 13.31586pt on input line 31.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 30.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
+(Font)              scaled to size 13.31586pt on input line 31.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 35.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 35.
+(Font)              scaled to size 13.31586pt on input line 36.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 36.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (./1_power_supply_1.tex
@@ -1017,86 +1017,96 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 <../figures//1_dE.pdf, id=122, 412.56133pt x 326.21512pt>
 File: ../figures//1_dE.pdf Graphic file (type pdf)
 <use ../figures//1_dE.pdf>
-Package luatex.def Info: ../figures//1_dE.pdf  used on input line 104.
+Package luatex.def Info: ../figures//1_dE.pdf  used on input line 106.
 (luatex.def)             Requested size: 412.56032pt x 326.21431pt.
 <../figures//1_VI.pdf, id=124, 418.44267pt x 312.44492pt>
 File: ../figures//1_VI.pdf Graphic file (type pdf)
 <use ../figures//1_VI.pdf>
-Package luatex.def Info: ../figures//1_VI.pdf  used on input line 115.
+Package luatex.def Info: ../figures//1_VI.pdf  used on input line 117.
 (luatex.def)             Requested size: 418.44165pt x 312.44414pt.
- [3<../figures//1_3.png><../figures//1_dE.pdf>]
-<../figures//1_dE_fit.pdf, id=186, 412.56133pt x 326.21512pt>
+<../figures//1_dE_fit.pdf, id=127, 412.56133pt x 326.21512pt>
 File: ../figures//1_dE_fit.pdf Graphic file (type pdf)
 <use ../figures//1_dE_fit.pdf>
-Package luatex.def Info: ../figures//1_dE_fit.pdf  used on input line 134.
+Package luatex.def Info: ../figures//1_dE_fit.pdf  used on input line 136.
 (luatex.def)             Requested size: 412.56032pt x 326.21431pt.
-<../figures//1_VI_fit.pdf, id=187, 418.44267pt x 312.44492pt>
+ [3<../figures//1_3.png>]
+<../figures//1_VI_fit.pdf, id=148, 418.44267pt x 312.44492pt>
 File: ../figures//1_VI_fit.pdf Graphic file (type pdf)
 <use ../figures//1_VI_fit.pdf>
-Package luatex.def Info: ../figures//1_VI_fit.pdf  used on input line 153.
+Package luatex.def Info: ../figures//1_VI_fit.pdf  used on input line 155.
 (luatex.def)             Requested size: 418.44165pt x 312.44414pt.
- [4<../figures//1_VI.pdf>]) [5<../figures//1_dE_fit.pdf><../figures//1_VI_fit.pdf>] (./1_power_supply_2.tex
-<../figures//1_4.png, id=391, 1952.29375pt x 1003.75pt>
+ [4<../figures//1_dE.pdf><../figures//1_VI.pdf>]) [5<../figures//1_dE_fit.pdf><../figures//1_VI_fit.pdf>] (./1_power_supply_2.tex
+<../figures//1_4.png, id=393, 1952.29375pt x 1003.75pt>
 File: ../figures//1_4.png Graphic file (type png)
 <use ../figures//1_4.png>
-Package luatex.def Info: ../figures//1_4.png  used on input line 18.
+Package luatex.def Info: ../figures//1_4.png  used on input line 25.
 (luatex.def)             Requested size: 1952.28902pt x 1003.74756pt.
-<../figures//2_10p.pdf, id=392, 419.58757pt x 326.21512pt>
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 33.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 33.
+ [6
+
+<../figures//1_4.png>]
+<../figures//2_10p.pdf, id=417, 419.58757pt x 326.21512pt>
 File: ../figures//2_10p.pdf Graphic file (type pdf)
 <use ../figures//2_10p.pdf>
-Package luatex.def Info: ../figures//2_10p.pdf  used on input line 30.
+Package luatex.def Info: ../figures//2_10p.pdf  used on input line 58.
 (luatex.def)             Requested size: 163.1189pt x 126.82019pt.
-<../figures//2_25p.pdf, id=393, 401.52008pt x 326.21512pt>
+<../figures//2_25p.pdf, id=418, 401.52008pt x 326.21512pt>
 File: ../figures//2_25p.pdf Graphic file (type pdf)
 <use ../figures//2_25p.pdf>
-Package luatex.def Info: ../figures//2_25p.pdf  used on input line 35.
+Package luatex.def Info: ../figures//2_25p.pdf  used on input line 63.
 (luatex.def)             Requested size: 163.1189pt x 132.52455pt.
-<../figures//2_40p.pdf, id=394, 419.62424pt x 326.21512pt>
+<../figures//2_40p.pdf, id=419, 419.62424pt x 326.21512pt>
 File: ../figures//2_40p.pdf Graphic file (type pdf)
 <use ../figures//2_40p.pdf>
-Package luatex.def Info: ../figures//2_40p.pdf  used on input line 42.
+Package luatex.def Info: ../figures//2_40p.pdf  used on input line 70.
 (luatex.def)             Requested size: 163.1189pt x 126.81023pt.
-<../figures//2_50p.pdf, id=395, 401.52008pt x 326.21512pt>
+<../figures//2_50p.pdf, id=420, 401.52008pt x 326.21512pt>
 File: ../figures//2_50p.pdf Graphic file (type pdf)
 <use ../figures//2_50p.pdf>
-Package luatex.def Info: ../figures//2_50p.pdf  used on input line 47.
+Package luatex.def Info: ../figures//2_50p.pdf  used on input line 75.
 (luatex.def)             Requested size: 163.1189pt x 132.52455pt.
-<../figures//2_60p.pdf, id=396, 415.77895pt x 313.44867pt>
+<../figures//2_60p.pdf, id=421, 415.77895pt x 313.44867pt>
 File: ../figures//2_60p.pdf Graphic file (type pdf)
 <use ../figures//2_60p.pdf>
-Package luatex.def Info: ../figures//2_60p.pdf  used on input line 54.
+Package luatex.def Info: ../figures//2_60p.pdf  used on input line 82.
 (luatex.def)             Requested size: 163.1189pt x 122.97148pt.
-<../figures//2_75p.pdf, id=397, 419.58757pt x 313.44867pt>
+<../figures//2_75p.pdf, id=422, 419.58757pt x 313.44867pt>
 File: ../figures//2_75p.pdf Graphic file (type pdf)
 <use ../figures//2_75p.pdf>
-Package luatex.def Info: ../figures//2_75p.pdf  used on input line 59.
+Package luatex.def Info: ../figures//2_75p.pdf  used on input line 87.
 (luatex.def)             Requested size: 163.1189pt x 121.85707pt.
-<../figures//2_80p.pdf, id=398, 412.56133pt x 313.44867pt>
+<../figures//2_80p.pdf, id=423, 412.56133pt x 313.44867pt>
 File: ../figures//2_80p.pdf Graphic file (type pdf)
 <use ../figures//2_80p.pdf>
-Package luatex.def Info: ../figures//2_80p.pdf  used on input line 66.
+Package luatex.def Info: ../figures//2_80p.pdf  used on input line 94.
 (luatex.def)             Requested size: 163.1189pt x 123.93283pt.
-) [6
-
-<../figures//1_4.png>] [7<../figures//2_10p.pdf><../figures//2_25p.pdf><../figures//2_40p.pdf><../figures//2_50p.pdf><../figures//2_60p.pdf><../figures//2_75p.pdf><../figures//2_80p.pdf>] (./out/1_power_supply.aux)
+<../figures//2_d_eta.pdf, id=424, 419.44643pt x 312.44492pt>
+File: ../figures//2_d_eta.pdf Graphic file (type pdf)
+<use ../figures//2_d_eta.pdf>
+Package luatex.def Info: ../figures//2_d_eta.pdf  used on input line 99.
+(luatex.def)             Requested size: 163.1189pt x 121.50499pt.
+) [7] [8<../figures//2_10p.pdf><../figures//2_25p.pdf><../figures//2_40p.pdf><../figures//2_50p.pdf><../figures//2_60p.pdf><../figures//2_75p.pdf><../figures//2_80p.pdf><../figures//2_d_eta.pdf>] (./out/1_power_supply.aux)
 Package rerunfilecheck Info: File `1_power_supply.out' has not changed.
 (rerunfilecheck)             Checksum: 8EBA8F2F8ED44EB86220843EFC445CED;1180.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28208 strings out of 477805
+ 28249 strings out of 477805
  156562,953878 words of node,token memory allocated
- 30781 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 2 glue, 450 kern, 1 glyph, 11892 attribute, 542 glue_spec, 623 attribute_list, 2 write, 134 user_defined nodes
-   avail lists: 1:43,2:39449,3:306,4:255,5:47,6:40,7:2557,8:60,9:1257,10:26,11:4
- 47612 multiletter control sequences out of 65536+600000
- 101 fonts using 73306951 bytes
- 114i,15n,112p,1800b,1040s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb>
-Output written on 1_power_supply.pdf (8 pages, 792288 bytes).
+ 33127 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 2 glue, 472 kern, 1 glyph, 12692 attribute, 636 glue_spec, 666 attribute_list, 2 write, 154 user_defined nodes
+   avail lists: 1:43,2:43618,3:397,4:275,5:65,6:53,7:2557,8:55,9:1257,10:26,11:6
+ 47633 multiletter control sequences out of 65536+600000
+ 106 fonts using 73660415 bytes
+ 114i,15n,112p,1800b,1042s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb>
+Output written on 1_power_supply.pdf (9 pages, 893694 bytes).
 
-PDF statistics: 758 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 62 named destinations out of 1000 (max. 131072)
+PDF statistics: 998 PDF objects out of 1000 (max. 8388607)
+ 477 compressed objects within 5 object streams
+ 76 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 100000000)
 

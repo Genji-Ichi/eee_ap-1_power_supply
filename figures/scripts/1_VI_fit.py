@@ -157,4 +157,4 @@ ax.legend()
 file_name = os.path.splitext(os.path.basename(__file__))[0]
 plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
 
-plt.show()
+# plt.show()

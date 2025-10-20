@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from matplotlib.ticker import ScalarFormatter
+# from matplotlib.ticker import ScalarFormatter
 
 plt.rcParams["font.family"] = "IPAexGothic"  # 漢字フォント導入
 plt.rcParams["mathtext.fontset"] = "cm"  # 数式フォント導入
@@ -18,23 +18,25 @@ fig = plt.figure()
 ax = fig.add_subplot(111)
 
 # csv ファイルの読み込み
-file_path = "figures/data/1_1.csv"
+file_path = "figures/data/2_d_eta.csv"
 dataset = pd.read_csv(file_path, comment="#")
 
-distance = np.array(dataset["d"]) - 4.5
-illuminance = np.array(dataset["E"])
+x = np.array(dataset["D"])
+y = np.array(dataset["eta"])
 
-text_d = r"間隔 $d\,/\mathrm{cm}$"
-text_E = r"照度 $E\,/\mathrm{lx}$"
-ax.set_xlabel(text_d)
-ax.set_ylabel(text_E)
+text_x = r"デューティ比 $D$"
+text_y = r"電力利得 $\eta$"
+ax.set_xlabel(text_x)
+ax.set_ylabel(text_y)
 
-ax.plot(distance, illuminance, linestyle="none", marker="o", label="実験結果")
+
+# ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
+# ax.ticklabel_format(style="sci", axis="y", scilimits=(0, 0))
+
+ax.plot(x, y, linestyle="none", marker="o")
 
 ax.grid()
 
-ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
-ax.ticklabel_format(style="sci", axis="y", scilimits=(0, 0))
 
 file_name = os.path.splitext(os.path.basename(__file__))[0]
 plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
