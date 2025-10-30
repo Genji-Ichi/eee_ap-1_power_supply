@@ -1,25 +1,123 @@
-INFO:  latexindent version 3.15, 2022-01-21, a script to indent .tex files
-       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Fri Oct 17 04:10:02 2025
-       Filename: /home/yorit/study/325_eee_ap/1_power_supply/doc/__latexindent_temp_1_power_supply_1.tex
+INFO:  latexindent version 3.24.7, 2025-08-15, a script to indent .tex files
+       latexindent lives here: /usr/local/texlive/2025/texmf-dist/scripts/latexindent/
+       Fri Oct 31 03:59:43 2025
+       Filename: /home/yorit/study/325_eee_ap/1_power_supply/doc/__latexindent_temp_1_power_supply_4.tex
 INFO:  Processing switches:
        -m|--modifylinebreaks: modify line breaks
        -g|--logfile: logfile name
        -c|--cruft: cruft directory
        -r|--replacement: replacement mode
-INFO:  Directory for backup files and /home/yorit/study/325_eee_ap/1_power_supply/doc//1_power_supply-indent.log: /home/yorit/study/325_eee_ap/1_power_supply/doc/
+INFO:  Directory for backup files and log file /home/yorit/study/325_eee_ap/1_power_supply/doc/1_power_supply-indent.log:
+       /home/yorit/study/325_eee_ap/1_power_supply/doc/
 INFO:  YAML settings read: defaultSettings.yaml
-       Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
-INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
+       Reading defaultSettings.yaml from /usr/local/texlive/2025/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       The config file in "/home/yorit/.indentconfig.yaml" will be read
        Reading path information from /home/yorit/.indentconfig.yaml
-       (Alternatively /home/yorit/indentconfig.yaml can be used)
        ---
        paths:
-         - /home/yorit/tech/LaTeX/.latexindent.yaml
+         - /home/yorit/study/LaTeX/.latexindent.yaml
 
 INFO:  YAML settings, reading from the following files:
-WARN:  /home/yorit/indentconfig.yaml
-       specifies /home/yorit/tech/LaTeX/.latexindent.yaml but this file does not exist - unable to read settings from this file
+       Reading USER settings from /home/yorit/study/LaTeX/.latexindent.yaml
+       ---
+       defaultIndent: '  '
+       indentAfterHeadings:
+         chapter:
+           indentAfterThisHeading: '1'
+           level: '2'
+         paragraph:
+           indentAfterThisHeading: '1'
+           level: '6'
+         part:
+           indentAfterThisHeading: '1'
+           level: '1'
+         section:
+           indentAfterThisHeading: '1'
+           level: '3'
+         subparagraph:
+           indentAfterThisHeading: '1'
+           level: '7'
+         subsection:
+           indentAfterThisHeading: '1'
+           level: '4'
+         subsection*:
+           indentAfterThisHeading: '1'
+           level: '4'
+         subsubsection:
+           indentAfterThisHeading: '1'
+           level: '5'
+       indentRules:
+         anotherenvironment: '  '
+         chapter: '  '
+         leftRightAutoSizeBrackets: '  '
+         myenvironment: '  '
+         section: '  '
+       lookForAlignDelims:
+         align:
+           alignDoubleBackSlash: '0'
+           delimiterRegEx: (?<!\\)((?:&\\[a-zA-Z]+)|(?:&[\+\-\*=<>]?))
+           spacesBeforeDoubleBackSlash: '2'
+         align*:
+           alignDoubleBackSlash: '0'
+           delimiterRegEx: (?<!\\)((?:&\\[a-zA-Z]+)|(?:&[\+\-\*=<>]?))
+           delims: '1'
+           spacesBeforeDoubleBackSlash: '2'
+         aligned:
+           alignDoubleBackSlash: '0'
+           delimiterRegEx: (?<!\\)((?:&\\[a-zA-Z]+)|(?:&[\+\-\*=<>]?))
+           spacesBeforeDoubleBackSlash: '2'
+         tabular:
+           alignDoubleBackSlash: '0'
+           delims: '0'
+           spacesAfterAmpersand: '1'
+           spacesBeforeAmpersand: '1'
+           spacesBeforeDoubleBackSlash: '2'
+       modifyLineBreaks:
+         environments:
+           BeginStartsOnOwnLine: '0'
+           BodyStartsOnOwnLine: '0'
+           EndFinishesWithLineBreak: '0'
+           EndStartsOnOwnLine: '0'
+           align:
+             BeginStartsOnOwnLine: '1'
+             BodyStartsOnOwnLine: '1'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '1'
+           align*:
+             BeginStartsOnOwnLine: '4'
+             BodyStartsOnOwnLine: '1'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '1'
+           document:
+             BeginStartsOnOwnLine: '1'
+             BodyStartsOnOwnLine: '4'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '4'
+           equation:
+             BeginStartsOnOwnLine: '1'
+             BodyStartsOnOwnLine: '1'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '1'
+           figure:
+             BeginStartsOnOwnLine: '4'
+             BodyStartsOnOwnLine: '1'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '1'
+           table:
+             BeginStartsOnOwnLine: '4'
+             BodyStartsOnOwnLine: '1'
+             EndFinishesWithLineBreak: '1'
+             EndStartsOnOwnLine: '1'
+       onlyOneBackUp: '1'
+       specialBeginEnd:
+         leftRightAutoSizeBrackets:
+           begin: \\left(?:\(|\[|\\\{|\.|\\l)
+           end: \\right(?:\)|\]|\\\}|\.|\\r)
+           lookForThis: '1'
+       verbatimEnvironments:
+         lstlisting: '1'
+
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects

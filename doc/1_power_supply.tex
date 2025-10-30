@@ -1,19 +1,13 @@
-\documentclass[a4paper,10pt,fleqn]{ltjsarticle} % fleqn:数式を左揃えにする
-
 \input{/home/yorit/study/.util/latex_preamble/Preamble}
+\input{/home/yorit/study/.util/latex_preamble/_ee.tex}
+\input{/home/yorit/study/.util/latex_preamble/_siunitx.tex}
+
 
 \usepackage{subfiles}
+\usepackage{subcaption}
 
-\newcommand{\ii}{\mathrm{i}}
-\newcommand{\jj}{\mathrm{j}}
-\newcommand{\ee}{\mathrm{e}}
-\renewcommand{\abs}[1]{\lvert #1 \rvert}
-\DeclareSIUnit{\vpp}{\ensuremath{\mathrm{V_{pp}}}}
-
-% siunitx で数式を扱う
-\newcommand{\SIeq}[2]{\SI[parse-numbers=false, per-mode=symbol]{#1}{#2}}
-\newcommand{\sis}[1]{\si[per-mode=symbol]{#1}}
-\newcommand{\SIs}[2]{\SI[per-mode=symbol]{#1}{#2}}
+\captionsetup[subfigure]{labelformat=simple}
+\renewcommand{\thesubfigure}{(\alph{subfigure})}
 
 \graphicspath{{../figures/}}
 
@@ -27,6 +21,7 @@
 
 
 \begin{document}
+
 \maketitle
 \thispagestyle{empty}
 
@@ -35,19 +30,19 @@
 
 \section{概要}
 
-本実習では、環境によって出力の異なる太陽光電池を用いて安定した電源供給システムを構築し、またそのシステムを評価する。
+  本実習では，環境によって出力の異なる太陽光電池を用いて安定した電源供給システムを構築し，またそのシステムを評価する．
 
-% \input{1_power_supply_1}
-% \input{1_power_supply_2}
-% \input{1_power_supply_3}
-% \input{1_power_supply_4}
+  % \input{1_power_supply_1}
+  % \input{1_power_supply_2}
+  % \input{1_power_supply_3}
+  % \input{1_power_supply_4}
 
-\subfile{1_power_supply_1.tex}
-\clearpage
-\subfile{1_power_supply_2.tex}
-% \clearpage
-% \subfile{1_power_supply_3.tex}
-% \clearpage
-% \subfile{1_power_supply_4.tex}
+  \subfile{1_power_supply_1.tex}
+  \clearpage
+  \subfile{1_power_supply_2.tex}
+  \clearpage
+  \subfile{1_power_supply_3.tex}
+  \clearpage
+  \subfile{1_power_supply_4.tex}
 
 \end{document}

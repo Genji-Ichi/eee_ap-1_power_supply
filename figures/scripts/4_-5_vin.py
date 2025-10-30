@@ -13,51 +13,53 @@ plt.rcParams["ytick.major.width"] = 1.0  # y軸主目盛りの太さ
 plt.rcParams["font.size"] = 12  # フォントサイズ
 plt.rcParams["axes.linewidth"] = 1.0  # 軸の太さ
 
+
 fig = plt.figure()
 ax = fig.add_subplot(111)
+# csv ファイルの読み込み
+file_path = "figures/data/4_60cm_-5.csv"
+dataset = pd.read_csv(file_path, comment="#")
 
-text_V = r"$V\,/\mathrm{V}$"
-text_I = r"$I\,/\mathrm{A}$"
-ax.set_xlabel(text_V)
-ax.set_ylabel(text_I)
+print(dataset)
+
+v_in = np.array(dataset["Vin"])
+v_out = np.array(dataset["Vout"])
+i_in = np.array(dataset["Iin"])
+i_out = np.array(dataset["Iout"])
 
 
-file_path_90 = "figures/data/1_2.csv"
-dataset_90 = pd.read_csv(file_path_90, comment="#")
-V_90 = np.array(dataset_90["V"])
-I_90 = np.array(dataset_90["I"])
+x = np.array(dataset["Vref"])
 
-file_path_120 = "figures/data/1_3.csv"
-dataset_120 = pd.read_csv(file_path_120, comment="#")
-V_120 = np.array(dataset_120["V"])
-I_120 = np.array(dataset_120["I"])
-
-file_path_105 = "figures/data/1_4.csv"
-dataset_105 = pd.read_csv(file_path_105, comment="#")
-V_105 = np.array(dataset_105["V"])
-I_105 = np.array(dataset_105["I"])
-
+text_x = r"目標電圧 $V_\mathrm{ref}\,/\mathrm{V}$"
+text_eff = r"入力電圧 $V_\mathrm{in}\,/\mathrm{V}$"
+ax.set_xlabel(text_x)
+ax.set_ylabel(text_eff)
 
 ax.plot(
-    V_90,
-    I_90,
+    x,
+    v_in,
     linestyle="none",
     marker="o",
-    label=r"$\mathrm{OB}=90\,\mathrm{cm}$",
+    label=r"$\mathrm{AC}=55.5\,\mathrm{cm}$",
 )
+
+# csv ファイルの読み込み
+file_path = "figures/data/4_90cm_-5.csv"
+dataset = pd.read_csv(file_path, comment="#")
+
+v_in = np.array(dataset["Vin"])
+v_out = np.array(dataset["Vout"])
+i_in = np.array(dataset["Iin"])
+i_out = np.array(dataset["Iout"])
+
+x = np.array(dataset["Vref"])
+
 ax.plot(
-    V_105,
-    I_105,
+    x,
+    v_in,
     linestyle="none",
     marker="o",
-    label=r"$\mathrm{OB}=105\,\mathrm{cm}$",
-)
-ax.plot(
-    V_120,
-    I_120,
-    linestyle="none",
-    marker="o",
-    label=r"$\mathrm{OB}=120\,\mathrm{cm}$",
+    label=r"$\mathrm{AC}=85.5\,\mathrm{cm}$",
 )
 
 ax.grid()
@@ -65,5 +67,3 @@ ax.legend()
 
 file_name = os.path.splitext(os.path.basename(__file__))[0]
 plt.savefig(f"figures/{file_name}.pdf", bbox_inches="tight")
-
-# plt.show()

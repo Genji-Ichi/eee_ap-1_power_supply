@@ -22,10 +22,10 @@ ax.set_xlabel(text_V)
 ax.set_ylabel(text_I)
 
 
-file_path_60 = "figures/data/1_2.csv"
-dataset_60 = pd.read_csv(file_path_60, comment="#")
-V_60 = np.array(dataset_60["V"])
-I_60 = np.array(dataset_60["I"])
+file_path_90 = "figures/data/1_2.csv"
+dataset_90 = pd.read_csv(file_path_90, comment="#")
+V_60 = np.array(dataset_90["V"])
+I_60 = np.array(dataset_90["I"])
 
 file_path_120 = "figures/data/1_3.csv"
 dataset_120 = pd.read_csv(file_path_120, comment="#")
@@ -94,7 +94,7 @@ ax.plot(
     I_60,
     linestyle="none",
     marker="o",
-    label=r"$\mathrm{OB}=60\,\mathrm{cm}$",
+    label=r"$\mathrm{OB}=90\,\mathrm{cm}$",
 )
 plot_105 = ax.plot(
     V_105,
